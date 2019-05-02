@@ -14,7 +14,7 @@ spring:
 security:
   basic:
     enabled: false
- mail:
+mail:
    host: smtp.gmail.com
    port: 587
    username: bog.vieru.1977@gmail.com
