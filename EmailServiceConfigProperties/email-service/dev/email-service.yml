@@ -15,10 +15,11 @@ security:
   basic:
     enabled: false
 mail:
+   smtp:
    host: smtp.gmail.com
-   port: 587
-   username: bog.vieru.1977@gmail.com
-   password: iancului
-   properties.mail.smtp:
-     auth: true
-     starttls.enable: true
+      port: 587
+      username: bog.vieru.1977@gmail.com
+      password: iancului
+      properties.mail.smtp:
+        auth: true
+        starttls.enable: true
