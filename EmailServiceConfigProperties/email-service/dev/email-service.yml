@@ -16,7 +16,7 @@ security:
     enabled: false
 mail:
    smtp:
-   host: smtp.gmail.com
+      host: smtp.gmail.com
       port: 587
       username: bog.vieru.1977@gmail.com
       password: iancului
