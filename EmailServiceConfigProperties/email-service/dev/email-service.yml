@@ -16,9 +16,6 @@ spring:
       port: 587
       username: bog.vieru.1977@gmail.com
       password: iancului
-      properties.mail.smtp:
-        auth: true
-        starttls.enable: true
 security:
   basic:
     enabled: false
