@@ -11,11 +11,7 @@ spring:
     bootstrap-servers: 192.168.99.100:9092
     topic:
       userRegistered: USER_REGISTERED_TOPIC
-security:
-  basic:
-    enabled: false
-mail:
-   smtp:
+  mail:
       host: smtp.gmail.com
       port: 587
       username: bog.vieru.1977@gmail.com
@@ -23,3 +19,6 @@ mail:
       properties.mail.smtp:
         auth: true
         starttls.enable: true
+security:
+  basic:
+    enabled: false
